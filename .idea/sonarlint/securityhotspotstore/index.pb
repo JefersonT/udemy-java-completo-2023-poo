@@ -14,3 +14,7 @@ N
 src/application/Program03.java,3/2/3234fb981b36ddcef15deaec3ca68aa1bef57808
 N
 src/application/Program05.java,b/5/b51b41dedf9a52b8bc861129e9fb3157406990e0
+N
+src/application/Program06.java,5/c/5cf837c37d0a27f5a61aa3aab12b577a91c38e11
+N
+src/application/Program07.java,e/e/eee8c2ec1f6e7ddb055838e9ec8730f9c256c221
