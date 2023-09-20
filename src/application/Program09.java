@@ -34,8 +34,7 @@ public class Program09 {
         for (int i = 1; i <= qtd; i++) {
             System.out.println("Enter contract #" + i + " data:");
             System.out.print("Date (DD/MM/YYYY): ");
-            sc.nextLine();
-            String stringDate = sc.nextLine();
+            String stringDate = sc.next();
             LocalDate date = LocalDate.parse(stringDate.toString(), DateTimeFormatter.ofPattern("dd/MM/yyyy"));
             System.out.print("Value per hour: ");
             Double valuePerHour = sc.nextDouble();
@@ -46,8 +45,7 @@ public class Program09 {
         }
         System.out.println();
         System.out.print("Enter month and year to calculate income (MM/YYYY): ");
-        sc.nextLine();
-        String stringDate = sc.nextLine();
+        String stringDate = sc.next();
         int year = Integer.parseInt(stringDate.substring(3));
         int monthValue = Integer.parseInt(stringDate.substring(0, 2));
 

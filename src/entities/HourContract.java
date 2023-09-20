@@ -7,6 +7,9 @@ public class HourContract {
     private Double valuePerHour;
     private Integer hours;
 
+    public HourContract() {
+    }
+
     public HourContract(LocalDate dateTime, Double valuePerHour, Integer hours) {
         this.dateTime = dateTime;
         this.valuePerHour = valuePerHour;
@@ -27,5 +30,17 @@ public class HourContract {
 
     public Integer getHours() {
         return hours;
+    }
+
+    public void setDateTime(LocalDate dateTime) {
+        this.dateTime = dateTime;
+    }
+
+    public void setValuePerHour(Double valuePerHour) {
+        this.valuePerHour = valuePerHour;
+    }
+
+    public void setHours(Integer hours) {
+        this.hours = hours;
     }
 }
