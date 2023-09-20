@@ -18,3 +18,21 @@ N
 src/application/Program06.java,5/c/5cf837c37d0a27f5a61aa3aab12b577a91c38e11
 N
 src/application/Program07.java,e/e/eee8c2ec1f6e7ddb055838e9ec8730f9c256c221
+L
+src/entities/Department.java,7/8/78620d4264b224cea2c5370d2af8c415ef983d92
+N
+src/entities/HourContract.java,7/a/7a7d420ceeaa0f87273105382ee05e96c9e21d9d
+S
+#src/entities/enums/WorkerLevel.java,8/c/8c9dbce01d9d6b88c5fd53372a82aa33d3d27bdf
+H
+src/entities/Worker.java,0/b/0b759f0731a24002d4e6d7d235a35194adff8097
+N
+src/application/Program09.java,6/4/642bbb832d3488b006387cbdb93236f64656d132
+N
+src/application/Program08.java,f/6/f60f85bab322bbd6a42bc5104f9ef158522b1961
+I
+src/entities/Comment.java,b/b/bb582d7dc4c9775ed6b8488ad561c47e79b6e9e3
+F
+src/entities/Post.java,3/d/3d47fcfcb2141626802ea5546e830aa7b13f86df
+N
+src/application/Program10.java,0/9/0910231d561eabd8039e9446887edb22f43cc638
