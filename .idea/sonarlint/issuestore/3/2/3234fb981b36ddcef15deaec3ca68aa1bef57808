@@ -1,0 +1,17 @@
+
+@	java:S106"+Replace this use of System.out by a logger.(çÇå
+E	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¢³Ğ¢
+@	java:S106"+Replace this use of System.out by a logger.(—ÄÀü
+@	java:S106"+Replace this use of System.out by a logger.(¿Ó¢¼
+@	java:S106"+Replace this use of System.out by a logger.(Ôç¢×
+E	java:S106"+Replace this use of System.out by a logger.(¡ªË¤øÿÿÿÿ
+E	java:S106""+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+E	java:S106%"+Replace this use of System.out by a logger.(Äğİøÿÿÿÿ
+@	java:S106)"+Replace this use of System.out by a logger.(îãÍ‹
+E	java:S106+"+Replace this use of System.out by a logger.(•û³Ûøÿÿÿÿ
+E	java:S1060"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+E	java:S1061"+Replace this use of System.out by a logger.(˜€ãÌüÿÿÿÿ
+V
+java:S16122"@Replace this lambda with method reference 'System.out::println'.(°¥
+@	java:S1062"+Replace this use of System.out by a logger.(°¥
