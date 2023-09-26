@@ -26,8 +26,9 @@ public class BusinessAccount extends Account{
         this.loanLimit = loanLimit;
     }
 
+    //final no método evita que a metodo seja sobreescrito
     @Override
-    public void withdraw(double value) {
+    public final void withdraw(double value) {
         super.withdraw(value);
         balance -= 2;
     }
