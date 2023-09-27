@@ -1,6 +1,7 @@
 package entities;
 
-public class Account {
+//abstract impede que a classe seja instanciada
+public abstract class Account {
     private int number;
     private String holder;
     protected double balance;
