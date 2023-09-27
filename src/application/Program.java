@@ -35,8 +35,8 @@ public class Program {
                 list.add(new ImportedProduct(name,price, cf));
             } else if (cui == 'u') {
                 System.out.printf("Manufacture date (DD/MM/YYYY): ");
-                String md = sc.next();
-                list.add(new UsedProduct(name, price, LocalDate.parse(md, DateTimeFormatter.ofPattern("dd/MM/yyyy"))));
+                LocalDate md = LocalDate.parse(sc.next(), DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+                list.add(new UsedProduct(name, price, md));
             } else {
                 list.add(new Product(name, price));
             }
