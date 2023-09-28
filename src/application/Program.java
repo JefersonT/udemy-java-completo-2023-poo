@@ -1,8 +1,10 @@
 package application;
 
-import entities.Account;
-import entities.BusinessAccount;
-import entities.SavingsAccount;
+
+import entities.Circle;
+import entities.Rectangle;
+import entities.Shape;
+import entities.enums.Color;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,15 +14,45 @@ public class Program {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
+
+        List<Shape> list = new ArrayList<>();
+
+        System.out.printf("Enter the number of shapes: ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            System.out.println("Shape #" + i + " data:");
+            sc.nextLine();
+            System.out.printf("Rectanble or Circle (r/c)? ");
+            char shape = sc.next().charAt(0);
+            System.out.printf("Color (BLACK/BLUE/RED): ");
+            Color color = Color.valueOf(sc.next());
+
+            if (shape == 'c' ) {
+
+                System.out.printf("Radius: ");
+                Double radius = sc.nextDouble();
+
+                list.add(new Circle(color, radius));
+
+            } else {
+                System.out.printf("Width: ");
+                Double width = sc.nextDouble();
+
+                System.out.printf("Heigth: ");
+                Double heigth = sc.nextDouble();
+
+                list.add(new Rectangle(color, width, heigth));
+
+            }
+
+        }
+
+        System.out.println();
+        System.out.println("SHAPE AREAS: ");
+        list.forEach(shape -> System.out.println(String.format("%.2f", shape.area())));
+
         sc.close();
-
-//        Account acc1 = new Account(1001, "Alex", 0.0);
-        Account acc2 = new BusinessAccount(1003, "Bob", 0.0, 200.00);
-        Account acc3 = new SavingsAccount(1004, "Anna", 0.0, 0.01);
-
-        List<Account> list = new ArrayList<>();
-        list.add(acc2);
-        list.add(acc3);
 
     }
 }
