@@ -1,19 +1,0 @@
-
-h
-java:S1192!"KDefine a constant instead of duplicating this literal "d05 dia = " 5 times.(Žï”Ó8Øðô©©1
-]	java:S125"<This block of commented-out lines of code should be removed.(ú¦ŠÏùÿÿÿÿ8ôòè©©1
-L	java:S106"+Replace this use of System.out by a logger.(ÛÿîÂùÿÿÿÿ8øòè©©1
-L	java:S106"+Replace this use of System.out by a logger.(ªùïûÿÿÿÿ8ùòè©©1
-G	java:S106"+Replace this use of System.out by a logger.(ž¡ßú8¸Òê©©1
-L	java:S106"+Replace this use of System.out by a logger.(ùÕ“‰ùÿÿÿÿ8¸Òê©©1
-G	java:S106"+Replace this use of System.out by a logger.(™Êñˆ8ŒÂî©©1
-G	java:S106"+Replace this use of System.out by a logger.(ò©õœ8—üï©©1
-F	java:S106"+Replace this use of System.out by a logger.(Ú¨â{8—üï©©1
-G	java:S106!"+Replace this use of System.out by a logger.(Žï”Ó8“çó©©1
-G	java:S106""+Replace this use of System.out by a logger.(‘ðÍ˜8“çó©©1
-F	java:S106#"+Replace this use of System.out by a logger.(†ût8“çó©©1
-L	java:S106$"+Replace this use of System.out by a logger.(ÁÚ­‚ûÿÿÿÿ8ãðô©©1
-L	java:S106%"+Replace this use of System.out by a logger.(è¬ýùýÿÿÿÿ8³ºõ©©1
-L	java:S106&"+Replace this use of System.out by a logger.(æ–Œæùÿÿÿÿ8³éö©©1
-\
-java:S1128"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8÷âõ©©1
